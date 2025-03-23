@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>To-Do List Alwi</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 10px;
+      background: #f9f9f9;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .input-section {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .input-section input[type="text"] {
+      flex: 1 1 auto;
+      min-width: 180px;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      outline: none;
+    }
+
+    .input-section select {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      outline: none;
+    }
+
+    .input-section button {
+      padding: 8px 16px;
+      border: 1px solid #ccc;
+      background-color: #4CAF50;
+      color: #fff;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background 0.3s;
+    }
+
+    .input-section button:hover {
+      background-color: #45a049;
+    }
+
+    .day-section-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: flex-start;
+    }
+
+    .day-section {
+      flex: 1 0 calc(33.33% - 1rem); 
+      min-width: 200px;
+      background: #ffffff;
+      padding: 0.5rem;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+      box-sizing: border-box;
+    }
+
+    .day-section h2 {
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+      background-color: #eee;
+      padding: 0.5rem;
+      border-radius: 4px;
+      font-size: 1.1rem;
+      text-align: center;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #fff;
+      margin-bottom: 8px;
+      padding: 8px 10px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+
+    li.completed .task-text {
+      text-decoration: line-through;
+      color: #aaa;
+    }
+
+    .task-text {
+      flex: 1;
+      margin-left: 10px;
+    }
+
+    .btn-delete {
+      background-color: #ff6b6b;
+      border: none;
+      padding: 6px 10px;
+      color: #fff;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .btn-delete:hover {
+      background-color: #ff4c4c;
+    }
+
+    @media (max-width: 600px) {
+      .day-section {
+        flex: 1 0 calc(100% - 1rem);
+      }
+    }
+  </style>
+</head>
+<body>
+<h1>To-Do List Alwi</h1>
+
+<div class="input-section">
+  <input type="text" id="taskInput" placeholder="Tambah tugas baru..." />
+  <select id="daySelect">
+    <option value="Senin">Senin</option>
+    <option value="Selasa">Selasa</option>
+    <option value="Rabu">Rabu</option>
+    <option value="Kamis">Kamis</option>
+    <option value="Jumat">Jumat</option>
+    <option value="Sabtu">Sabtu</option>
+    <option value="Minggu">Minggu</option>
+  </select>
+  <button id="addBtn">Tambah</button>
+</div>
+
+<div id="dayContainer" class="day-section-grid"></div>
+
+<script src="tugas1.js"></script>
+</body>
+</html>
