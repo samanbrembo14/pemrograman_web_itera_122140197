@@ -49,7 +49,7 @@ Aplikasi ini bersifat sepenuhnya interaktif dan menyimpan data secara lokal meng
 ### Tema Gelap
 ![Tampilan Aplikasi Gelap](/alwi_122140197_pertemuan2/assets/dashboard_gelap.png)
 
-![Tampilan Aplikasi Gelap](/alwi_122140197_pertemuan2\assets\dashborad_gelap2.png)
+![Tampilan Aplikasi Gelap 2](/alwi_122140197_pertemuan2\assets\dashborad_gelap2.png)
 ---
 
 ## ✅ Status
