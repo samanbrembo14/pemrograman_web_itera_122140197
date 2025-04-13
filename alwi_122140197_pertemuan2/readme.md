@@ -40,11 +40,16 @@ Aplikasi ini bersifat sepenuhnya interaktif dan menyimpan data secara lokal meng
 
 ## 📸 Screenshot Aplikasi
 ### Tema Terang
-![Tampilan Aplikasi Terang](/assets)
+![Tampilan Aplikasi Terang](/alwi_122140197_pertemuan2/assets/dashboard1.png)
+
+![Tampilan Aplikasi Terang 2](/alwi_122140197_pertemuan2/assets/dashboard2.png)
+
+
 
 ### Tema Gelap
-```
+![Tampilan Aplikasi Gelap](/alwi_122140197_pertemuan2/assets/dashboard_gelap.png)
 
+![Tampilan Aplikasi Gelap](/alwi_122140197_pertemuan2\assets\dashborad_gelap2.png)
 ---
 
 ## ✅ Status
@@ -54,4 +59,3 @@ Proyek selesai dan telah memenuhi seluruh persyaratan praktikum:
 - Menggunakan fitur ES6+ ✔
 - Tampilan modern & responsif ✔
 - Animasi dan efek transisi ✔
-
