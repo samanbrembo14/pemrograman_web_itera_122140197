@@ -1,5 +1,5 @@
 # 📘 StudyBuddy Personal Dashboard
-
+## [Link Website](https://study-buddy-bice-ten.vercel.app/)
 ## 🎯 Deskripsi Aplikasi
 **StudyBuddy** adalah aplikasi web dashboard pribadi yang dirancang untuk membantu mahasiswa tetap produktif dan terorganisir. Aplikasi ini memungkinkan pengguna untuk mencatat tugas, menyimpan catatan kuliah, mengatur timer fokus (Pomodoro), serta mengganti tampilan ke mode gelap untuk kenyamanan visual.
 
