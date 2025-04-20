@@ -1,0 +1,135 @@
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #121212;  /* full page dark */
+    color: #e0e0e0;
+  }
+
+.home-container {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+  
+  /* Judul */
+  .home-header {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem; /* lebih longgar */
+    font-weight: 600;
+  }
+  
+  /* Card umum */
+  .card {
+    background: #1e1e1e;
+    border-radius: 12px;
+    padding: 2rem;        /* lebih lapang */
+    margin-bottom: 2.5rem;/* jarak antar card lebih besar */
+    box-shadow: 0 4px 16px rgba(0,0,0,0.5);
+  }
+  
+  /* Field filter & form: spacing lebih longgar */
+  .filter-section .field,
+  .form-section .field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;   /* dari 1.5rem jadi 2rem */
+    }
+
+  .filter-section input,
+  .filter-section select,
+  .form-section input,
+  .form-section select {
+    padding: 1rem;          /* tambah padding untuk area input */
+    border: 1px solid #333;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: #2c2c2c;
+    color: #e0e0e0;
+    margin-top: 0.5rem;     /* jarak label → input */
+ }
+
+/* Tombol utama (Tambah/Update Buku) */
+.btn-primary {
+    width: 100%;
+    background: linear-gradient(135deg, #4a90e2 0%, #357ab8 100%);
+    color: #ffffff;
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: filter 0.2s ease, transform 0.1s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn-primary:hover {
+    filter: brightness(1.1);
+    transform: translateY(-2px);
+  }
+  
+  .btn-primary:active {
+    transform: translateY(1px);
+    filter: brightness(0.9);
+  }  
+  
+  .btn-primary:hover {
+    background: #357ab8;
+  }
+  
+  /* Tabel daftar buku */
+  .list-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+  }
+  
+  .list-section th,
+  .list-section td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #333;
+  }
+  
+  .list-section thead th {
+    background: #2c2c2c;
+    color: #e0e0e0;
+    font-weight: 500;
+  }
+  
+  .list-section tbody tr:hover {
+    background: #2a2a2a;
+  }
+  
+  /* Tombol aksi Edit/Hapus */
+  .btn-edit,
+  .btn-delete {
+    padding: 0.4rem 0.8rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-right: 0.5rem;
+  }
+  
+  .btn-edit {
+    background: #6c757d;
+    color: #fff;
+  }
+  
+  .btn-edit:hover {
+    background: #5a6268;
+  }
+  
+  .btn-delete {
+    background: #c9302c;
+    color: #fff;
+  }
+  
+  .btn-delete:hover {
+    background: #a71d2a;
+  }
+  

@@ -1,0 +1,53 @@
+html, body, #root {
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Kontainer utama untuk halaman Statistik */
+  .stats-container {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: #e0e0e0;
+  }
+  
+  /* Judul halaman */
+  .stats-header {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+  }
+  
+  /* Grid untuk kartu statistik */
+  .stats-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  /* Kartu individual */
+  .stats-card {
+    background: #1e1e1e;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  /* Label di dalam kartu */
+  .stats-card .label {
+    font-size: 1rem;
+    color: #aaaaaa;
+  }
+  
+  /* Angka statistik */
+  .stats-card .count {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    color: #4a90e2;
+  }
+  
