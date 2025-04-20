@@ -14,7 +14,7 @@ export default function Stats() {
       <h1 className="stats-header">Statistik Buku</h1>
       <div className="stats-card-container">
         <div className="stats-card">
-          <div className="label">Milik</div>
+          <div className="label">Dimiliki</div>
           <div className="count">{stats.milik}</div>
         </div>
         <div className="stats-card">
