@@ -1,0 +1,9 @@
+pyramid==2.0
+SQLAlchemy==1.4.46
+pyramid_tm==2.5
+pyramid_retry==2.1.1
+zope.sqlalchemy==1.6
+alembic==1.9.1
+psycopg2-binary==2.9.5
+pyramid_jinja2==2.10
+waitress==2.1.2

@@ -1,0 +1,49 @@
+*.egg
+*.egg-info
+*.pyc
+*$py.class
+*~
+.coverage
+coverage.xml
+build/
+dist/
+.tox/
+nosetests.xml
+tmp/
+Data.fs*
+*.sublime-project
+*.sublime-workspace
+.*.sw?
+.sw?
+.DS_Store
+coverage
+test
+# Mengabaikan venv di parent directory
+../venv/
+
+# Mengabaikan file Python umum
+*.py[cod]
+__pycache__/
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Mengabaikan file SQLite
+*.sqlite
+
+# Mengabaikan file environment dan konfigurasi lokal
+.env
+*.log
